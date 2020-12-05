@@ -13,7 +13,7 @@ import matplotlib.dates as mdates
 
 #%% read data
 #df_original = pd.read_csv('https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv?cachebust=5805f0ab2859cf87', encoding = 'utf-8')
-df_original = pd.read_csv('data/google_mobility_report_2020-07-25.csv', encoding = ('utf-8'))
+df_original = pd.read_csv('data/google_mobility_report_2020-07-25.csv', encoding = 'utf-8')
 df = df_original.copy()
 
 # check columns
